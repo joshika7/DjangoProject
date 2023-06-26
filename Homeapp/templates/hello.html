@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        #box{
+            margin: 20px;
+            border: 3px solid red;
+            width: 300px;
+            padding: 50px;
+        }
+        table,td,th{
+            font-size: 30px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" align="center">
+    <h1>Hello {{name}}</h1>
+    <h2> how r u?</h2>
+    <h2>R u learning {{lang}}?</h2>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>{{name}}</td>
+        </tr>
+        <tr>
+            <td>Skill</td>
+            <td>{{lang}}</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
